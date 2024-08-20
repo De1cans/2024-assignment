@@ -1,0 +1,7 @@
+.profile img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 82vh;
+    border-radius: 60%;
+}

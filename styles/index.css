@@ -6,42 +6,29 @@
    --primary-text: #AA6373;
 }
 
+body {
+    margin: 0;
+}
+
 .primary-header {
     background-color: var(--primary-color);
     min-height: 60px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 0;
 }
 
 .profile-name {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 50px;
 }
 
-.navigation-header {
+nav {
     background-color: var(--secondary-color);
     min-height: 30px;
-    display: grid;
-    margin: 0;
-}
-
-nav {
     display: flex;
-    justify-content: space-around;
-    font-size: 20px;
     align-items: center;
-}
-
-.profile-photo img {
-    display: flex;
-    max-width: 1000px;
-    margin-left: 500px;
-    border-radius: 50%;
+    justify-content: space-around;
 }
 
 .social-media {
