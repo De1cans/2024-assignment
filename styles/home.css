@@ -1,7 +1,3 @@
-.profile img {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 82vh;
-    border-radius: 60%;
+.main-body {
+    padding: 100px;   
 }

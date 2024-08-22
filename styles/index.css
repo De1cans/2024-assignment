@@ -52,3 +52,7 @@ section {
     color: black;
     font-size: 25px;
 }
+
+.main-body {
+    background-color: var(--primary-background);
+}
