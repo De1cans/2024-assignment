@@ -1,3 +1,63 @@
-.main-body {
-    padding: 100px;   
+.main-profile {
+    background-color: var(--primary-background);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh;
 }
+
+img {
+    max-width: 35vh;
+    float: left;
+    border: 10px solid var(--secondary-color);
+    border-radius: 15%;
+    margin-right: 100px;
+}
+
+.profile {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.profile-text h1 {
+    color: var(--primary-text);
+    font-size: 50px;
+    text-shadow: 2px 2px #944b5c;
+}
+
+.profile p {
+    color: var(--primary-text);
+    font-size: 24px;
+}
+
+.about-link {
+    background-color: var(--primary-background);
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.about-link a {
+    color: white;
+}
+
+/* .social-media {
+    background-color: var(--secondary-color);
+    min-height: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.primary-footer {
+    background-color: var(--primary-color);
+    min-height: 5vh;
+}
+
+.social-media a i {
+    color: black;
+    padding: 10px;
+    font-size: 2.5vh;
+} */
