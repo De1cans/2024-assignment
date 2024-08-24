@@ -1,13 +1,12 @@
-.main-profile {
+.about-one {
     background-color: var(--primary-background);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    min-height: 88vh;
 }
 
-img {
+.image-one {
     max-width: 22vh;
     float: left;
     border: 10px solid var(--secondary-color);
@@ -15,20 +14,91 @@ img {
     margin-right: 100px;
 }
 
-.profile {
-    margin: 100px auto;
+.about-one-wrap {
+    margin: 50px auto;
     width: 85%;
 }
 
-.profile-text h1 {
+.about-text-one h1 {
     color: var(--primary-text);
-    font-size: 35px;
-    text-shadow: 2px 2px #944b5c;
+    font-size: 32px;
+    text-shadow: 1px 1px #944b5c;
+    text-underline-offset: 10px;
+    margin-bottom: 25px;
 }
 
-.profile p {
+.about-one-wrap p {
     color: var(--primary-text);
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.about-two {
+    background-color: var(--primary-background);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.about-two-wrap {
+    margin: 50px auto;
+    width: 85%;
+}
+
+.about-text-two h1 {
+    display: flex;
+    color: var(--primary-text);
+    font-size: 32px;
+    text-shadow: 1px 1px #944b5c;
+    text-underline-offset: 10px;
+    margin-bottom: 25px;
+    justify-content: flex-end;
+}
+
+.about-two-wrap p {
+    color: var(--primary-text);
+    font-size: 22px;
+}
+
+.image-two {
+    max-width: 22vh;
+    float: right;
+    border: 10px solid var(--secondary-color);
+    border-radius: 15%;
+    margin-left: 100px;
+}
+
+.about-three {
+    background-color: var(--primary-background);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-three-wrap {
+    margin: 50px auto;
+    width: 85%;
+}
+
+.about-text-three h1 {
+    color: var(--primary-text);
+    font-size: 32px;
+    text-shadow: 1px 1px #944b5c;
+    text-underline-offset: 10px;
+    margin-bottom: 25px;
+}
+
+.about-three-wrap p {
+    color: var(--primary-text);
+    font-size: 22px;
+}
+
+.image-three {
+    max-width: 22vh;
+    float: left;
+    border: 10px solid var(--secondary-color);
+    border-radius: 15%;
+    margin-right: 100px;
 }
 
 .work-link {
