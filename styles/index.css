@@ -4,6 +4,7 @@
    --secondary-color: #208AAE;
    --primary-background: #EAEBBF;
    --primary-text: #AA6373;
+   --secondary-text: #944b5c;
 }
 
 body {
@@ -31,6 +32,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     font-size: 2vh;
+    color: white;
 }
 
 .social-media {
