@@ -1,6 +1,6 @@
 :root {
    --primary-color: #0A2239;
-   --primary-hover: #75C2DF;
+   --secondary-hover: #75C2DF;
    --secondary-color: #208AAE;
    --primary-background: #EAEBBF;
    --primary-text: #AA6373;
@@ -35,6 +35,12 @@ nav {
     color: white;
 }
 
+nav a:hover,
+nav a.active {
+    color: white;
+    scale: 125%;
+}
+
 .social-media {
     background-color: var(--secondary-color);
     min-height: 2.5vh;
@@ -52,4 +58,12 @@ nav {
     color: black;
     padding: 10px;
     font-size: 2.5vh;
+}
+
+.social-media a:hover {
+    scale: 130%;
+}
+
+.social-media i:hover {
+    color: white;
 }
