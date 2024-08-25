@@ -148,3 +148,15 @@ form {
 .home-link a:hover {
     scale: 120%;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-form {
+        scale: .8;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact-form {
+        scale: .7;
+    }
+}
