@@ -1,0 +1,319 @@
+main {
+    background-color: var(--primary-background);
+    min-height: 79vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    margin: 0;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-bottom: 10vh;
+    color: var(--primary-text);
+}
+
+.animations {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.animation-one {
+    background-color: white;
+    border: 5px solid var(--secondary-color);
+    padding: 40px;
+    box-shadow: 0px 0px 10px 2px var(--primary-color);
+}
+
+.animation-one p {
+    display: flex;
+}
+
+.text-one {
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-right: 1px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s infinite, cursor .6s infinite
+ }
+
+@keyframes cursor {
+    50% {border-color: transparent;}
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+.animation-two {
+    box-shadow: 0px 0px 10px 2px var(--primary-color);
+    border: 5px solid var(--secondary-color);
+    padding: 40px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6,50px);
+    grid-template-rows: repeat(6, 50px);
+}
+
+.one {
+    border: 25px solid red;
+    background-color: orange;
+    border-radius: 50%;
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+    animation: rainbow-five 1.5s infinite, rainbow-six 1.5s infinite
+}
+
+.two {
+    border: 25px solid yellow;
+    background-color: green;
+    border-radius: 50%;
+    grid-row: 2 / -2;
+    grid-column: 2 / -2;
+    animation: rainbow-three 1.5s infinite, rainbow-four 1.5s infinite
+}
+
+.three {
+    border: 25px solid royalblue;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    grid-row: 3 / -3;
+    grid-column: 3 / -3;
+    animation: rainbow-one 1.5s infinite, rainbow-two 1.5s infinite
+}
+
+@keyframes rainbow-one {
+    0% {
+        background-color: rebeccapurple;
+    }
+    16% {
+        background-color: rebeccapurple;
+    }
+    17% {
+        background-color: red;
+    }
+    32% {
+        background-color: red;
+    }
+    33% {
+        background-color: orange;
+    }
+    48% {
+        background-color: orange;
+    }
+    49% {
+        background-color: yellow;
+    }
+    65% {
+        background-color: yellow;
+    }
+    66% {
+        background-color: green;
+    }
+    82% {
+        background-color: green;
+    }
+    83% {
+        background-color: royalblue;
+    }
+    100% {
+        background-color: royalblue;
+    }
+}
+
+@keyframes rainbow-two {
+    0% {
+        border: 25px solid royalblue;
+    }
+    16% {
+        border: 25px solid royalblue;
+    }
+    17% {
+        border: 25px solid rebeccapurple;
+    }
+    32% {
+        border: 25px solid rebeccapurple;
+    }
+    33% {
+        border: 25px solid red;
+    }
+    48% {
+        border: 25px solid red;
+    }
+    49% {
+        border: 25px solid orange;
+    }
+    65% {
+        border: 25px solid orange;
+    }
+    66% {
+        border: 25px solid yellow;
+    }
+    82% {
+        border: 25px solid yellow;
+    }
+    83% {
+        border: 25px solid green;
+    }
+    100% {
+        border: 25px solid green;
+    }
+}
+
+@keyframes rainbow-three {
+    0% {
+        background-color: green;
+    }
+    16% {
+        background-color: green;
+    }
+    17% {
+        background-color: royalblue;
+    }
+    32% {
+        background-color: royalblue;
+    }
+    33% {
+        background-color: rebeccapurple;
+    }
+    48% {
+        background-color: rebeccapurple;
+    }
+    49% {
+        background-color: red;
+    }
+    65% {
+        background-color: red;
+    }
+    66% {
+        background-color: orange;
+    }
+    82% {
+        background-color: orange;
+    }
+    83% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+@keyframes rainbow-four {
+    0% {
+        border: 25px solid yellow;
+    }
+    16% {
+        border: 25px solid yellow;
+    }
+    17% {
+        border: 25px solid green;
+    }
+    32% {
+        border: 25px solid green;
+    }
+    33% {
+        border: 25px solid royalblue;
+    }
+    48% {
+        border: 25px solid royalblue;
+    }
+    49% {
+        border: 25px solid rebeccapurple;
+    }
+    65% {
+        border: 25px solid rebeccapurple;
+    }
+    66% {
+        border: 25px solid red;
+    }
+    82% {
+        border: 25px solid red;
+    }
+    83% {
+        border: 25px solid orange;
+    }
+    100% {
+        border: 25px solid orange;
+    }
+}
+
+@keyframes rainbow-five {
+    0% {
+        background-color: orange;
+    }
+    16% {
+        background-color: orange;
+    }
+    17% {
+        background-color: yellow;
+    }
+    32% {
+        background-color: yellow;
+    }
+    33% {
+        background-color: green;
+    }
+    48% {
+        background-color: green;
+    }
+    49% {
+        background-color: royalblue;
+    }
+    65% {
+        background-color: royalblue;
+    }
+    66% {
+        background-color: rebeccapurple;
+    }
+    82% {
+        background-color: rebeccapurple;
+    }
+    83% {
+        background-color: red;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes rainbow-six {
+    0% {
+        border: 25px solid red;
+    }
+    16% {
+        border: 25px solid red;
+    }
+    17% {
+        border: 25px solid orange;
+    }
+    32% {
+        border: 25px solid orange;
+    }
+    33% {
+        border: 25px solid yellow;
+    }
+    48% {
+        border: 25px solid yellow;
+    }
+    49% {
+        border: 25px solid green;
+    }
+    65% {
+        border: 25px solid green;
+    }
+    66% {
+        border: 25px solid royalblue;
+    }
+    82% {
+        border: 25px solid royalblue;
+    }
+    83% {
+        border: 25px solid rebeccapurple;
+    }
+    100% {
+        border: 25px solid rebeccapurple;
+    }
+}
