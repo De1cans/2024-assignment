@@ -181,3 +181,47 @@ main {
 .course-link a:hover {
     scale: 120%;
 }
+
+@media screen and (max-width: 768px) {
+    .accordian {
+        scale: .75;
+        padding-left: 0;
+    }
+
+    .accordian-one {
+        scale: .75;
+        padding-left: 0;
+    }
+
+    .accordian-two {
+        scale: .75;
+        padding-left: 0;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .accordian {
+        scale: .6;
+        padding-left: 0;
+    }
+
+    .accordian-one {
+        scale: .6;
+        padding-left: 0;
+    }
+
+    .accordian-two {
+        scale: .6;
+        padding-left: 0;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+    }
+}
