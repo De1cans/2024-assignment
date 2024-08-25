@@ -370,3 +370,30 @@ main {
 .contact-link a:hover {
     scale: 120%;
 }
+
+@media screen and (max-width: 768px) {
+.header {
+    margin: 0 40px;
+}
+
+.animations {
+    scale: .7;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        margin: 0 40px;
+        padding-bottom: 0px;
+    }
+
+    .header h1 {
+        justify-content: center;
+    }
+    
+    .animations {
+        scale: .5;
+        justify-content: center;
+    }
+}
