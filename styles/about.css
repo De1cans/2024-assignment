@@ -8,6 +8,7 @@
 
 .image-one {
     max-width: 22vh;
+    max-height: 28vh;
     float: left;
     border: 10px solid var(--secondary-color);
     border-radius: 15%;
@@ -60,7 +61,7 @@
 }
 
 .image-two {
-    max-width: 22vh;
+    max-width: 30vh;
     float: right;
     border: 10px solid var(--secondary-color);
     border-radius: 15%;
@@ -94,7 +95,7 @@
 }
 
 .image-three {
-    max-width: 22vh;
+    max-width: 30vh;
     float: left;
     border: 10px solid var(--secondary-color);
     border-radius: 15%;
