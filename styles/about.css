@@ -119,3 +119,99 @@
 .work-link a:hover {
     scale: 120%;
 }
+
+@media screen and (max-width: 768px) {
+    .about-one-wrap {
+        width: 95%;
+    }
+
+    .about-two-wrap {
+        width: 95%;
+    }
+
+    .about-three-wrap {
+        width: 95%;
+    }
+
+    .image-one {
+        margin-right: 3px;
+        scale: .8;
+    }
+
+    .image-two {
+        scale: .8;
+        margin-left: 3px;
+    }
+
+    .image-three {
+        scale: .7;
+        margin-right: 3px;
+    }
+
+    .about-text-one h1 {
+        font-size: 24px;
+    }
+
+    .about-text-two h1 {
+        font-size: 24px;
+    }
+
+    .about-text-three h1 {
+        font-size: 24px;
+    }
+
+    .about-text-one p {
+        font-size: 18px;
+    }
+
+    .about-text-two p {
+        font-size: 18px;
+    }
+
+    .about-text-three p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .image-one {
+        margin-right: 3px;
+        scale: .8;
+    }
+
+    .image-two {
+        scale: .8;
+        margin-left: 3px;
+        float: left;
+    }
+
+    .image-three {
+        scale: .7;
+        margin-right: 3px;
+    }
+
+    .about-text-one h1 {
+        font-size: 20px;
+    }
+
+    .about-text-two h1 {
+        font-size: 20px;
+        justify-content: flex-start;
+    }
+
+    .about-text-three h1 {
+        font-size: 20px;
+    }
+
+    .about-text-one p {
+        font-size: 16px;
+    }
+
+    .about-text-two p {
+        font-size: 16px;
+    }
+
+    .about-text-three p {
+        font-size: 16px;
+    }
+}
