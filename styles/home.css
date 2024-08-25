@@ -50,33 +50,23 @@ img {
     scale: 120%;
 }
 
-/* .about-link {
-    background-color: var(--primary-background);
-    font-size: 2.5vh;
-    display: flex;
-    justify-content: center;
-    min-height: 100px;
+@media screen and (max-width: 768px) {
+    .main-profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img {
+        scale: .75;
+        float: right;
+    }
+
+    .profile-text {
+        scale: .75;
+        margin-left: 6vh;
+    }
 }
 
-.about-link a {
-    color: white;
-} */
-
-/* .social-media {
-    background-color: var(--secondary-color);
-    min-height: 2.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@media screen and (max-width: 576px) {
 }
-
-.primary-footer {
-    background-color: var(--primary-color);
-    min-height: 5vh;
-}
-
-.social-media a i {
-    color: black;
-    padding: 10px;
-    font-size: 2.5vh;
-} */
