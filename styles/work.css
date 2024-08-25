@@ -1,0 +1,183 @@
+main {
+    background-color: var(--primary-background);
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordian {
+    margin-top: 5vh;
+    width: 700px;
+    padding-left: 15vh;
+}
+
+.accordian-input {
+    display: none;
+}
+
+.accordian-label {
+    font-size: 30px;
+    color: white;
+    background-color: var(--secondary-color);
+    display: flex;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+}
+
+.accordian-label:before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    height: 0;
+    font-size: 0;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    transition: transform .5s;
+    transform-origin: 3px center;
+}
+
+.accordian-text {
+    font-size: 26px;
+    color: var(--primary-text);
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.accordian-input:checked ~ label:before {
+    transform: rotate(90deg)
+}
+
+.accordian-input:checked ~ .accordian-text{
+    padding: 10px;
+    opacity: 1;
+    height: auto;
+}
+
+.accordian-one {
+    margin-top: 5vh;
+    width: 700px;
+    padding-left: 15vh;
+}
+
+.input-one {
+    display: none;
+}
+
+.label-one {
+    font-size: 30px;
+    color: white;
+    background-color: var(--secondary-color);
+    display: flex;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+}
+
+.label-one:before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    height: 0;
+    font-size: 0;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    transition: transform .5s;
+    transform-origin: 3px center;
+}
+
+.text-one {
+    font-size: 26px;
+    color: var(--primary-text);
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.input-one:checked ~ .label-one:before {
+    transform: rotate(90deg)
+}
+
+.input-one:checked ~ .text-one{
+    padding: 10px;
+    opacity: 1;
+    height: auto;
+}
+
+.accordian-two {
+    margin-top: 5vh;
+    width: 700px;
+    padding-left: 15vh;
+}
+
+.input-two {
+    display: none;
+}
+
+.label-two {
+    font-size: 30px;
+    color: white;
+    background-color: var(--secondary-color);
+    display: flex;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+}
+
+.label-two:before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    height: 0;
+    font-size: 0;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    transition: transform .5s;
+    transform-origin: 3px center;
+}
+
+.text-two {
+    font-size: 26px;
+    color: var(--primary-text);
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.input-two:checked ~ .label-two:before {
+    transform: rotate(90deg)
+}
+
+.input-two:checked ~ .text-two{
+    padding: 10px;
+    opacity: 1;
+    height: auto;
+}
+
+.course-link {
+    background-color: var(--primary-background);
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.course-link a {
+    color: white;
+    background-color: var(--secondary-color);
+    border: 10px solid var(--secondary-color);
+}
+
+.course-link a:hover {
+    scale: 120%;
+}
